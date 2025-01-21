@@ -84,53 +84,37 @@ tasklist - List all currently running processes on the client.
 
 taskkill /f /im [process_name] - Forcefully terminate a specific process on the client.
 
-systeminfo
-Display detailed system information of the client machine.
+systeminfo - Display detailed system information of the client machine.
 
-whoami
-Show the current logged-in user on the client machine.
+whoami - Show the current logged-in user on the client machine.
 
-cd [directory]
-Change the working directory on the client machine.
+cd [directory] - Change the working directory on the client machine.
 
-mkdir [directory_name]
-Create a new directory on the client.
+mkdir [directory_name] - Create a new directory on the client.
 
-rmdir [directory_name]
-Remove an existing directory on the client.
+rmdir [directory_name] - Remove an existing directory on the client.
 
-copy [source] [destination]
-Copy a file from one location to another on the client.
+copy [source] [destination] - Copy a file from one location to another on the client.
 
-del [filename]
-Delete a file on the client machine.
+del [filename] - Delete a file on the client machine.
 
-type [filename]
-Display the contents of a file in the terminal.
+type [filename] - Display the contents of a file in the terminal.
 
-cls
-Clear the screen in the client’s terminal.
+cls - Clear the screen in the client’s terminal.
 
-shutdown /s /f /t 0
-Shutdown the client machine immediately.
+shutdown /s /f /t 0 - Shutdown the client machine immediately.
 
-restart
-Restart the client machine.
+restart - Restart the client machine.
 
-netstat
-Display the network connections and listening ports on the client.
+netstat - Display the network connections and listening ports on the client.
 
-set
-Display all environment variables for the client machine.
+set - Display all environment variables for the client machine.
 
-ftp [hostname]
-Connect to an FTP server from the client machine.
+ftp [hostname] - Connect to an FTP server from the client machine.
 
-date
-Display or set the date on the client machine.
+date - Display or set the date on the client machine.
 
-time
-Display or set the time on the client machine.
+time - Display or set the time on the client machine.
 
 
 Commands will be sent to the client for execution, and the output will be displayed on the server.

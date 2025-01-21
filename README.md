@@ -70,26 +70,19 @@ The client will attempt to connect to the server.
 Server Commands
 Once connected, you can execute commands in the Shell> prompt. Some example commands:
 
-dir 
--List directory contents.
+dir - List directory contents.
 
-echo Hello  
--Output a message.
+echo Hello  - Output a message.
 
-exit  
--Disconnect from the client.
+exit  - Disconnect from the client.
 
-ipconfig
--Display IP configuration details of the client machine.
+ipconfig - Display IP configuration details of the client machine.
 
-ping [hostname or IP]
-Ping a specified host or IP address from the client machine.
+ping [hostname or IP] - Ping a specified host or IP address from the client machine.
 
-tasklist
-List all currently running processes on the client.
+tasklist - List all currently running processes on the client.
 
-taskkill /f /im [process_name]
-Forcefully terminate a specific process on the client.
+taskkill /f /im [process_name] - Forcefully terminate a specific process on the client.
 
 systeminfo
 Display detailed system information of the client machine.

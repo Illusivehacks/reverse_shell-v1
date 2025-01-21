@@ -1,5 +1,5 @@
 @echo off
-set server_ip=192.168.1.67
+set server_ip=192.168.10.134
 set server_port=8888
 
 :loop

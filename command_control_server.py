@@ -1,6 +1,6 @@
 import socket
 
-HOST = '192.168.1.67'  # Listen on all interfaces
+HOST = '192.168.10.134'  # Listen on all interfaces
 PORT = 8888  # The port you specified in the batch file
 
 def handle_client(client_socket):

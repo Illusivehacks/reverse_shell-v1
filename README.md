@@ -71,16 +71,16 @@ Server Commands
 Once connected, you can execute commands in the Shell> prompt. Some example commands:
 
 dir 
-List directory contents.
+-List directory contents.
 
 echo Hello  
-Output a message.
+-Output a message.
 
 exit  
-Disconnect from the client.
+-Disconnect from the client.
 
 ipconfig
-Display IP configuration details of the client machine.
+-Display IP configuration details of the client machine.
 
 ping [hostname or IP]
 Ping a specified host or IP address from the client machine.
